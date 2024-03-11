@@ -17,7 +17,7 @@ import { io } from 'socket.io-client';
 import CircularProgress from '@mui/material/CircularProgress';
 
 function App() {
-  const socket = io('http://localhost:3001');
+  const socket = io('https://attandance-server-qmlt.onrender.com');
   const [loading, setLoading] = useState(false);
 
   const [tableData, setTableData] = useState([]);
